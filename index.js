@@ -130,7 +130,7 @@ if (text == '!filmes'){
 conn.sendMessage(id, '∆ FILMES ∆\r\n\r\nA saga Harry Potter: https://redecanais.app/harry-potter-e-a-pedra-filosofal-dublado-2001-1080p_04229ab19.html\r\n\r\nhttps://redecanais.app/harry-potter-e-a-camara-secreta-dublado-2002-1080p_fb1b907c3.html\r\n\r\nhttps://redecanais.app/harry-potter-e-o-prisioneiro-de-azkaban-dublado-2004-1080p_7d5d9fbcb.html\r\n\r\nhttps://redecanais.app/harry-potter-e-o-calice-de-fogo-dublado-2005-1080p_dd04a3c22.html\r\n\r\nhttps://redecanais.app/harry-potter-e-a-ordem-da-fenix-dublado-2007-1080p_9c0352e77.html\r\n\r\nhttps://redecanais.app/harry-potter-e-o-enigma-do-principe-dublado-2009-1080p_e5dbb9561.html\r\n\r\nhttps://redecanais.app/harry-potter-e-as-reliquias-da-morte-parte-1-dublado-2010-1080p-1_9978c55b2.html\r\n\r\nhttps://redecanais.app/harry-potter-e-as-reliquias-da-morte-parte-2-dublado-2011-1080p_760b61376.html\r\n\r\nO mistério do convento 2: https://redecanais.app/o-misterio-do-convento-2-cacadora-de-almas-dublado-2020-1080p_0c19ff77d.html\r\n\r\nBrinquedos do terror: https://redecanais.app/brinquedos-do-terror-dublado-2020-1080p_439f9de81.html\r\n\r\nA ligação: https://redecanais.app/a-ligacao-dublado-2020-1080p_154785841.html\r\n\r\nQuando você chegou: https://redecanais.app/quando-voce-chegou-dublado-2020-1080p_6bec30294.html\r\n\r\nProcurada: https://redecanais.app/procurada-dublado-2020-1080p_aa9bc831d.html\r\n\r\nArtemis fowl: https://redecanais.app/artemis-fowl-o-mundo-secreto-dublado-2020-1080p_72ad2be60.html\r\n\r\nArmas em jogo: https://redecanais.app/armas-em-jogo-dublado-2020-1080p_592e3b00d.html\r\n\r\nUrso sem curso o filme: https://redecanais.app/ursos-sem-curso-o-filme-dublado-2020-1080p_89a6087cb.html\r\n\r\nBob esponja o incrível resgate: https://redecanais.app/bob-esponja-o-incrivel-resgate-dublado-2020-1080p_649bb0f55.html\r\n\r\nAbc do amor: https://redecanais.app/abc-do-amor-dublado-2005-720p_d8883f6f4.html\r\n\r\nA Casa do terror: https://redecanais.app/a-casa-do-terror-dublado-2019-1080p_7dfddb221.html\r\n\r\nAbracadabra: https://redecanais.app/abracadabra-dublado-1993-1080p_5facf327b.html\r\n\r\nEnola Holmes: https://redecanais.app/enola-holmes-dublado-2020-1080p_ae171f5ca.html\r\n\r\nO diabo de cada dia: https://redecanais.app/o-diabo-de-cada-dia-dublado-2020-1080p_a007f61f1.html\r\n\r\nSegurança de shopping 1 e 2: https://redecanais.app/seguranca-de-shopping-dublado-2009-1080p_ecfe1b368.html\r\n\r\nhttps://redecanais.app/seguranca-de-shopping-2-dublado-2015-1080p_8bb6c895c.html\r\n\r\nMulan: https://redecanais.app/mulan-dublado-2020-1080p_c976e9099.html\r\n\r\nEra uma vez um Deadpool: https://redecanais.app/era-uma-vez-um-deadpool-legendado-2018-1080p_ef75cc897.html\r\n\r\nFuga de Auschwitz: https://redecanais.app/fuga-de-auschwitz-dublado-2020-1080p_ec68b17a5.html\r\n\r\noração diabólica: https://redecanais.app/oracao-diabolica-dublado-2020-1080p_538434cb4.html' ,MessageType.text);
 }
 if (text == '!loja'){
-conn.sendMessage(id, '★LOJA EREN-BOT★\r\n\r\nMinecraft (MCPE):https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/filer\r\n\r\nAlight Montion (PRO):http://www.mediafire.com/file/tpxj2grwf8imp6i/Alight_Motion_V.3.1.4_%2528Mod%2529_By_bilqis_neha.apk/file\r\n\r\nKineMaster (PRO):https://www.mediafire.com/download/eshb8rra8eg5xa3\r\n\r\nKineMaster Diamond (MOD):https://www.mediafire.com/download/9p8wsnwupnq0lun' ,MessageType.text);
+conn.sendMessage(id, '★LOJA MARKOS-BOT★\r\n\r\nMinecraft (MCPE):https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/filer\r\n\r\nAlight Montion (PRO):http://www.mediafire.com/file/tpxj2grwf8imp6i/Alight_Motion_V.3.1.4_%2528Mod%2529_By_bilqis_neha.apk/file\r\n\r\nKineMaster (PRO):https://www.mediafire.com/download/eshb8rra8eg5xa3\r\n\r\nKineMaster Diamond (MOD):https://www.mediafire.com/download/9p8wsnwupnq0lun' ,MessageType.text);
 }
 		
 if (text == '!sticker'){
@@ -348,7 +348,7 @@ if (text.includes("!letra")){
 if (text.includes("!ip"))
   { const aris = text.replace(/!ip /, "") 
   axios.get(`https://mnazria.herokuapp.com/api/check?ip=${aris}`).then((res) =>{ 
-  let hasil = ` *🔍CONSULTA REALIZADA🔍* \n\n ➸ *CIDADE:*  ${res.data.city}\n ➸ *Latitude* : ${res.data.latitude}\n ➸ *Longtitude* : ${res.data.longitude}\n ➸ *REGIÃO* : ${res.data.region_name}\n ➸ *UF* : ${res.data.region_code}\n ➸ *IP* : ${res.data.ip}\n ➸ *TIPO* : ${res.data.type}\n ➸ *CEP* : ${res.data.zip}\n ➸ *LOCALIDADE* : ${res.data.location.geoname_id}\n ➸ *CAPITAL* : ${res.data.location.capital}\n ➸ *DDD* : ${res.data.location.calling_code}\n ➸ *PAÍS* : ${res.data.location.country_flag_emoji}\n *📌BY:𝐄𝐑𝐄𝐍 𝐁𝐎𝐓*` 
+  let hasil = ` *🔍CONSULTA REALIZADA🔍* \n\n ➸ *CIDADE:*  ${res.data.city}\n ➸ *Latitude* : ${res.data.latitude}\n ➸ *Longtitude* : ${res.data.longitude}\n ➸ *REGIÃO* : ${res.data.region_name}\n ➸ *UF* : ${res.data.region_code}\n ➸ *IP* : ${res.data.ip}\n ➸ *TIPO* : ${res.data.type}\n ➸ *CEP* : ${res.data.zip}\n ➸ *LOCALIDADE* : ${res.data.location.geoname_id}\n ➸ *CAPITAL* : ${res.data.location.capital}\n ➸ *DDD* : ${res.data.location.calling_code}\n ➸ *PAÍS* : ${res.data.location.country_flag_emoji}\n *📌BY:MARKOS-BOT*` 
   conn.sendMessage(id, hasil, MessageType.text); 
  })
  }
@@ -369,7 +369,7 @@ if (text.includes("!cnpj")){
 const aris = text.replace(/!cnpj /, "")
 axios.get(`https://www.receitaws.com.br/v1/cnpj/${aris}`).then((res) => {
 	conn.sendMessage(id, '[❗] BUSCANDO DADOS...', MessageType.text)
-         let cep = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *ATIVIDADE PRINCIPAL:* ${res.data.atividade_principal[0].text} \n\n ➸ *DATA SITUAÇÃO:* ${res.data.data_situacao}\n\n ➸ *TIPO:* ${res.data.tipo} \n\n ➸ *NOME:* ${res.data.nome} \n\n ➸ *UF:* ${res.data.uf} \n\n ➸ *TELEFONE:* ${res.data.telefone}\n\n ➸ *SITUAÇÃO:* ${res.data.situacao} \n\n ➸ *BAIRRO:* ${res.data.bairro} \n\n ➸ *RUA:* ${res.data.logradouro} \n\n ➸ *NÚMERO :* ${res.data.numero} \n\n ➸ *CEP :* ${res.data.cep} \n\n ➸ *MUNICÍPIO:* ${res.data.municipio} \n\n ➸ *PORTE:* ${res.data.porte}\n\n ➸ *ABERTURA:* ${res.data.abertura}\n\n ➸ *NATUREZA JURÍDICA:* ${res.data.natureza_juridica} \n\n ➸ *FANTASIA:* ${res.data.fantasia}\n\n ➸ *CNPJ:* ${res.data.cnpj}\n\n ➸ *ÚLTIMA ATUALIZAÇÃO:* ${res.data.ultima_atualizacao}\n\n ➸ *STATUS:* ${res.data.status}\n\n ➸ *COMPLEMENTO:* ${res.data.complemento}\n\n ➸ *EMAIL:* ${res.data.email}\n\n *📌BY:𝐄𝐑𝐄𝐍 𝐁𝐎𝐓* `;
+         let cep = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *ATIVIDADE PRINCIPAL:* ${res.data.atividade_principal[0].text} \n\n ➸ *DATA SITUAÇÃO:* ${res.data.data_situacao}\n\n ➸ *TIPO:* ${res.data.tipo} \n\n ➸ *NOME:* ${res.data.nome} \n\n ➸ *UF:* ${res.data.uf} \n\n ➸ *TELEFONE:* ${res.data.telefone}\n\n ➸ *SITUAÇÃO:* ${res.data.situacao} \n\n ➸ *BAIRRO:* ${res.data.bairro} \n\n ➸ *RUA:* ${res.data.logradouro} \n\n ➸ *NÚMERO :* ${res.data.numero} \n\n ➸ *CEP :* ${res.data.cep} \n\n ➸ *MUNICÍPIO:* ${res.data.municipio} \n\n ➸ *PORTE:* ${res.data.porte}\n\n ➸ *ABERTURA:* ${res.data.abertura}\n\n ➸ *NATUREZA JURÍDICA:* ${res.data.natureza_juridica} \n\n ➸ *FANTASIA:* ${res.data.fantasia}\n\n ➸ *CNPJ:* ${res.data.cnpj}\n\n ➸ *ÚLTIMA ATUALIZAÇÃO:* ${res.data.ultima_atualizacao}\n\n ➸ *STATUS:* ${res.data.status}\n\n ➸ *COMPLEMENTO:* ${res.data.complemento}\n\n ➸ *EMAIL:* ${res.data.email}\n\n *📌BY:MARKOS BOT* `;
     conn.sendMessage(id, cep ,MessageType.text);
 }) 
 }
@@ -377,7 +377,7 @@ if (text.includes("!cpf")){
 const aris = text.replace(/!cpf /, "")
 axios.get(`http://geradorapp.com/api/v1/cpf/generate?token=${aris}`).then((res) => {
 	conn.sendMessage(id, '[❗] BUSCANDO DADOS...', MessageType.text)
-         let ecpf = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *CPF:* ${res.data.CPF} \n\n ➸ *NOME:* ${res.data.Nome}\n\n ➸ *MÃE:* ${res.data.NomeMae} \n\n ➸ *NASCIMENTO:* ${res.data.DataNascimento} \n\n ➸ *RUA:* ${res.data.Rua} \n\n ➸ *N°:* ${res.data.NumeroRua}\n\n ➸ *COMPLEMENTO:* ${res.data.Complemento}\n\n ➸ *BAIRRO:* ${res.data.Bairro}\n\n ➸ *CEP:* ${res.data.CEP}\n\n ➸ *UF:* ${res.data.EstadoSigla}\n\n ➸ *CIDADE:* ${res.data.Cidade}\n\n ➸ *ESTADO:* ${res.data.Estado}\n\n ➸ *PAIS:* ${res.data.Pais}  \n\n *📌BY:𝐄𝐑𝐄𝐍 𝐁𝐎𝐓* `;
+         let ecpf = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *CPF:* ${res.data.CPF} \n\n ➸ *NOME:* ${res.data.Nome}\n\n ➸ *MÃE:* ${res.data.NomeMae} \n\n ➸ *NASCIMENTO:* ${res.data.DataNascimento} \n\n ➸ *RUA:* ${res.data.Rua} \n\n ➸ *N°:* ${res.data.NumeroRua}\n\n ➸ *COMPLEMENTO:* ${res.data.Complemento}\n\n ➸ *BAIRRO:* ${res.data.Bairro}\n\n ➸ *CEP:* ${res.data.CEP}\n\n ➸ *UF:* ${res.data.EstadoSigla}\n\n ➸ *CIDADE:* ${res.data.Cidade}\n\n ➸ *ESTADO:* ${res.data.Estado}\n\n ➸ *PAIS:* ${res.data.Pais}  \n\n *📌BY:MARKOS BOT* `;
     conn.sendMessage(id, ecpf ,MessageType.text);
 }) 
 }
@@ -386,7 +386,7 @@ if (text.includes("!geradorcpf")){
 const aris = text.replace(/!geradorcpf/, "")
 axios.get(`http://geradorapp.com/api/v1/cpf/generate?token=40849779ec68f8351995def08ff1e2fa`).then((res) => {
 	conn.sendMessage(id, '[❗] ESPERE ESTA PROCESSANDO', MessageType.text)
-         let cpf = `*🔍CPF GERADOS🔍* \n\n ➸ *CPF:* ${res.data.data.number}  \n\n *📌BY:𝐄𝐑𝐄𝐍 𝐁𝐎𝐓*`;
+         let cpf = `*🔍CPF GERADOS🔍* \n\n ➸ *CPF:* ${res.data.data.number}  \n\n *📌BY:MARKOS BOT*`;
     conn.sendMessage(id, cpf ,MessageType.text);
 })
 }	
@@ -395,7 +395,7 @@ if (text.includes("!cep")){
 const aris = text.replace(/!cep /, "")
 axios.get(`https://viacep.com.br/ws/${aris}/json/`).then((res) => {
 	conn.sendMessage(id, '[❗] BUSCANDO DADOS...', MessageType.text)
-         let cep = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *CEP:* ${res.data.cep} \n\n ➸ *ENDEREÇO:* ${res.data.logradouro}\n\n ➸ *COMPLEMENTO:* ${res.data.complemento} \n\n ➸ *BAIRRO:* ${res.data.bairro} \n\n ➸ *LOCALIDADE:* ${res.data.localidade} \n\n ➸ *UF:* ${res.data.uf}\n\n ➸ *DDD:* ${res.data.ddd} \n\n *📌BY:𝐄𝐑𝐄𝐍 𝐁𝐎𝐓* `;
+         let cep = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *CEP:* ${res.data.cep} \n\n ➸ *ENDEREÇO:* ${res.data.logradouro}\n\n ➸ *COMPLEMENTO:* ${res.data.complemento} \n\n ➸ *BAIRRO:* ${res.data.bairro} \n\n ➸ *LOCALIDADE:* ${res.data.localidade} \n\n ➸ *UF:* ${res.data.uf}\n\n ➸ *DDD:* ${res.data.ddd} \n\n *📌BY:MARKOS BOT* `;
     conn.sendMessage(id, cep ,MessageType.text);
 }) 
 }
@@ -404,7 +404,7 @@ axios.get(`https://viacep.com.br/ws/${aris}/json/`).then((res) => {
 if (text.includes("!placa"))
   { const aris = text.replace(/!placa /, "") 
   axios.get(`https://apicarros.com/v1/consulta/${aris}/json`).then((res) =>{ 
-  let hasil = ` *🔍CONSULTA REALIZADA🔍* \n\n ➸ *ANO:*  ${res.data.ano}\n ➸ *ANO MODELO* : ${res.data.anoModelo}\n ➸ *CHASSI* : ${res.data.chassi}\n ➸ *CODIGO RETORNO* : ${res.data.codigoRetorno}\n ➸ *CODIGO SITUACAO* : ${res.data.codigoSituacao}\n ➸ *COR* : ${res.data.cor}\n ➸ *MARCA* : ${res.data.marca}\n ➸ *MUNICIPIO* : ${res.data.municipio}\n ➸ *SITUACAO* : ${res.data.situacao}\n ➸ *UF* : ${res.data.uf}\n *📌BY:𝐄𝐑𝐄𝐍 𝐁𝐎𝐓*` 
+  let hasil = ` *🔍CONSULTA REALIZADA🔍* \n\n ➸ *ANO:*  ${res.data.ano}\n ➸ *ANO MODELO* : ${res.data.anoModelo}\n ➸ *CHASSI* : ${res.data.chassi}\n ➸ *CODIGO RETORNO* : ${res.data.codigoRetorno}\n ➸ *CODIGO SITUACAO* : ${res.data.codigoSituacao}\n ➸ *COR* : ${res.data.cor}\n ➸ *MARCA* : ${res.data.marca}\n ➸ *MUNICIPIO* : ${res.data.municipio}\n ➸ *SITUACAO* : ${res.data.situacao}\n ➸ *UF* : ${res.data.uf}\n *📌BY:MARKOS BOT*` 
   conn.sendMessage(id, hasil, MessageType.text); 
  })
  }		
@@ -478,7 +478,7 @@ if (text.includes("Parabéns"))
             (response) => {
     conn.sendMessage(id, 'VENHAM DAR PARABÉNS PRA ESSE MACACO', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
-              conn.sendMessage(id, buf ,MessageType.image, { caption: `PARABÉNS MONKEY !!! FELICIDADES. EREN TE AMA🤠`, quoted: m } )
+              conn.sendMessage(id, buf ,MessageType.image, { caption: `PARABÉNS MONKEY !!! FELICIDADES. MARKOS TE AMA🤠`, quoted: m } )
             }
         )
         .catch(
