@@ -47,7 +47,7 @@ MENU EREN BOT
 ADICIONAR EM UM GRUPO R$10💵
 
 Criador:
-𝐆𝐀𝐀𝐑𝐀𝐙𝐈𝐍𝐇𝐎 愛
+MARKOS BOT愛
 
 ❄️ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs ❄️
 
