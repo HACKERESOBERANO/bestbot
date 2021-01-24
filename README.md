@@ -42,7 +42,7 @@ INSTALAÇÃO:
 
 | MARKOS BOT      |                   Característica        |
 | :-----------: | :------------------------------: |
-MENU EREN BOT
+MENU MARKOS
 
 ADICIONAR EM UM GRUPO R$10💵
 
